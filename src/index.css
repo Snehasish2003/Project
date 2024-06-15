@@ -125,3 +125,15 @@
 .feature::-webkit-scrollbar{
     display: none;
 }
+@keyframes  top-to-bottom {
+  0% {
+    transform: translatey(-100vh) ;
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+
+.top-to-bottom {
+  animation: top-to-bottom 1.5s ;
+}
