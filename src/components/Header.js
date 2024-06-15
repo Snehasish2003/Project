@@ -25,7 +25,7 @@ const Header = () => {
 
                         </li>
                         <li className="py-4">
-                            <Link to="/note">Notes</Link>
+                            <Link to="/notes">Notes</Link>
 
                         </li>
                         <li className="py-4">
