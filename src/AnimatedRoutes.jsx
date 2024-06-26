@@ -5,6 +5,7 @@ import Features from './pages/Features'
 import { AnimatePresence } from "framer-motion"
 import Addpdf from "./pages/Addpdf";
 import Notes from './pages/Notes';
+import MainSection from './components/Doubt';
 
 
 const AnimatedRoutes = () => {
@@ -17,6 +18,7 @@ const AnimatedRoutes = () => {
         <Route path='/features' element={<Features />} />
         <Route path='/addpdf' element={<Addpdf />} />
         <Route path='/notes' element={<Notes />} />
+        <Route path='/doubt' element={<MainSection />} />
       </Routes>
     </AnimatePresence>
 
